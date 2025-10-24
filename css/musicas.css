@@ -1,0 +1,133 @@
+.container-melhor {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+.melhor {
+    width: 50vw;
+    height: 75vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f5;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.melhor-titulo {
+    font-size: 45px;
+    color: black;
+    padding-bottom: 40px;
+}
+
+.botao-confirmar {
+    background-color: #328d0e;
+    width: 100px;
+    height: 30px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container-campos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.select-album-id {
+    width: 250px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+.input-nome {
+    width: 250px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+.input-nota {
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+.container-tabela {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tabela {
+    width: 70%;
+    font-weight: bold;
+}
+
+.tabela-titulo {
+    color: white;
+    font-size: 24px;
+    background-color: #7d6baf;
+    padding: 10px;
+}
+
+.tabela,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabela,
+tr,
+td {
+    height: 30px;
+}
+
+.tabela-coluna-foto {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.foto-avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.tabela-coluna-nome {
+    text-align: left;
+    padding: 10px;
+}
+
+.botao-alterar {
+    background-color: #135299;
+    width: 35px;
+    height: 35px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.botao-excluir {
+    background-color: #991313;
+    width: 35px;
+    height: 35px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}

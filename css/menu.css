@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    background-color: #7d6baf;
+    height: 50px;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 23px;
+}
+
+.link:hover {
+    color: white;
+    transition: 0.1s;
+}
