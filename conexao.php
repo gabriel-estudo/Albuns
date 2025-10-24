@@ -1,16 +1,16 @@
 <?php
 
 // Conexão com o banco (MySQL)  DESENVOLVIMENTO
-$host = "localhost";
-$usuario = "root";
-$senha = "";
-$banco = "albuns";
+// $host = "localhost";
+// $usuario = "root";
+// $senha = "";
+// $banco = "albuns";
 
 // Conexão com o banco (MySQL)  PRODUÇÃO
-// $host = "mysql.gabrielmil.com.br";
-// $usuario = "gabrielmil01";
-// $senha = "Gabriel230107";
-// $banco = "gabrielmil01";
+$host = "mysql.gabrielmil.com.br";
+$usuario = "gabrielmil01";
+$senha = "Gabriel230107";
+$banco = "gabrielmil01";
 
 $conexao = new mysqli($host, $usuario, $senha, $banco);
 
