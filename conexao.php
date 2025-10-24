@@ -7,7 +7,7 @@
 // $banco = "albuns";
 
 // Conexão com o banco (MySQL)  PRODUÇÃO
-$host = "www.gabrielmil.com.br";
+$host = "mysql.gabrielmil.com.br";
 $usuario = "gabrielmil01";
 $senha = "Gabriel230107";
 $banco = "gabrielmil01";
