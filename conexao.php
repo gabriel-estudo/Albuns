@@ -9,7 +9,7 @@
 // Conexão com o banco (MySQL)  PRODUÇÃO
 $host = "www.gabrielmil.com.br";
 $usuario = "gabrielmil01";
-$senha = "Gabriel@230107";
+$senha = "Gabriel230107";
 $banco = "gabrielmil01";
 
 $conexao = new mysqli($host, $usuario, $senha, $banco);
