@@ -8,7 +8,7 @@
 
 // Conexão com o banco (MySQL)  PRODUÇÃO
 $host = "www.gabrielmil.com.br";
-$usuario = "gabrielmil";
+$usuario = "gabrielmil01";
 $senha = "Gabriel@230107";
 $banco = "gabrielmil01";
 
